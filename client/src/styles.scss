@@ -8,12 +8,22 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  div {
+    text-align: center;
+    justify-content: center;
+  }
 }
+
 
 .App {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   display: flex;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  
 
   svg {
     height: 100%;
@@ -28,6 +38,7 @@ body,
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+
 }
 
 .colors-wrap {
@@ -64,7 +75,15 @@ form {
   margin-top: 60px;
   display: flex;
   flex-direction: column;
+  padding: 5%;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 
+  div {
+    text-align: center;
+    justify-content: center;
+  }
   legend {
     padding-left: 40px;
     font-weight: bold;
@@ -72,6 +91,7 @@ form {
     text-decoration: underline;
     margin-bottom: 16px;
   }
+  
 
   label {
     display: flex;
